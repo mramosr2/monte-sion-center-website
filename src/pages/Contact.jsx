@@ -20,7 +20,6 @@ function isPhoneOk(value) {
 
 export default function Contact() {
   const { t } = useLanguage()
-  const endpoint = import.meta.env.VITE_CONTACT_API_URL
 
   const [form, setForm] = useState({
     name: '',
@@ -39,6 +38,10 @@ export default function Contact() {
     message: false,
   })
   const [submitAttempted, setSubmitAttempted] = useState(false)
+
+  // IMPORTANT: compute these AFTER hooks, and only use them in onSubmit
+  const baseUrl = import.meta.env.VITE_CONTACT_API_URL
+  const endpoint = baseUrl ? new URL('/contact', baseUrl).toString() : null
 
   const errors = useMemo(() => {
     const e = {}
@@ -83,7 +86,7 @@ export default function Contact() {
     setSubmitAttempted(true)
 
     if (!endpoint) {
-      setStatus({ state: 'error', message: 'Missing VITE_CONTACT_API_URL (.env)' })
+      setStatus({ state: 'error', message: t('contact.missingApiUrl') })
       return
     }
 
@@ -150,12 +153,9 @@ export default function Contact() {
             </div>
 
             <div>
-  <h3 className="text-sm font-semibold text-slate-900">{t('contact.hoursLabel')}</h3>
-  <p className="mt-1 text-sm text-slate-700">{t('contact.hoursValue')}</p>
-</div>
-
-
-          
+              <h3 className="text-sm font-semibold text-slate-900">{t('contact.hoursLabel')}</h3>
+              <p className="mt-1 text-sm text-slate-700">{t('contact.hoursValue')}</p>
+            </div>
 
             <div>
               <h3 className="text-sm font-semibold text-slate-900">{t('contact.phoneLabel')}</h3>
@@ -276,10 +276,7 @@ export default function Contact() {
                   onBlur={onBlur}
                   aria-invalid={Boolean(errors.message)}
                   aria-describedby={errors.message ? 'contact-message-error' : 'contact-message-help'}
-                  className={[
-                    errors.message ? badInput : okInput,
-                    'min-h-[120px]',
-                  ].join(' ')}
+                  className={[errors.message ? badInput : okInput, 'min-h-[120px]'].join(' ')}
                   placeholder={t('contact.formMessagePh')}
                 />
                 {errors.message ? (

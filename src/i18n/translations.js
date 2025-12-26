@@ -253,6 +253,7 @@ formMessageError: 'Message must be at least 5 characters.',
 formFixErrors: 'Please fix the highlighted fields and try again.',
 hoursLabel: "Hours of operation",
 hoursValue: "6:00 AM to 2:30 PM, Monday through Friday",
+missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
 
 
 
@@ -530,6 +531,7 @@ formMessageError: 'El mensaje debe tener al menos 5 caracteres.',
 formFixErrors: 'Corrige los campos marcados e inténtalo de nuevo.',
 hoursLabel: "Horario de atención",
 hoursValue: "6:00 a. m. a 2:30 p. m., de lunes a viernes",
+missingApiUrl: "El formulario de contacto no está configurado todavía. Falta la URL del API.",
 
 
 
