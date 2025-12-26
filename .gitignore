@@ -1,0 +1,29 @@
+node_modules/
+
+# Builds
+dist/
+build/
+
+# Vite
+.vite/
+
+# Env / secrets
+.env
+.env.*
+.dev.vars
+
+# Cloudflare Wrangler
+.wrangler/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
