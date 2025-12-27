@@ -39,24 +39,28 @@ export default function Contact() {
   })
   const [submitAttempted, setSubmitAttempted] = useState(false)
 
-  // IMPORTANT: compute these AFTER hooks, and only use them in onSubmit
   const baseUrl = import.meta.env.VITE_CONTACT_API_URL
-  const endpoint = baseUrl ? new URL('/contact', baseUrl).toString() : null
+
+  const endpoint = useMemo(() => {
+    if (!baseUrl) return null
+    try {
+      return new URL('/contact', baseUrl).toString()
+    } catch {
+      return null
+    }
+  }, [baseUrl])
 
   const errors = useMemo(() => {
     const e = {}
 
-    // Email: required + must be valid format
     if ((touched.email || submitAttempted) && !isEmailOk(form.email)) {
       e.email = t('contact.formEmailError')
     }
 
-    // Phone: optional, but if present must match pattern
     if ((touched.phone || submitAttempted) && !isPhoneOk(form.phone)) {
       e.phone = t('contact.formPhoneError')
     }
 
-    // Message: required + min 5 chars
     const msg = form.message.trim()
     if (touched.message || submitAttempted) {
       if (msg.length < 5) e.message = t('contact.formMessageError')
@@ -67,10 +71,7 @@ export default function Contact() {
 
   function onChange(e) {
     const { name, value } = e.target
-
-    // If user edits anything after a success/error, hide that banner so it doesn't look "wrong"
     if (status.state !== 'idle') setStatus({ state: 'idle', message: '' })
-
     setForm((prev) => ({ ...prev, [name]: value }))
   }
 
@@ -86,17 +87,15 @@ export default function Contact() {
     setSubmitAttempted(true)
 
     if (!endpoint) {
-      setStatus({ state: 'error', message: t('contact.missingApiUrl') })
+      setStatus({ state: 'error', message: t('contact.missingApiUrl') || 'Missing VITE_CONTACT_API_URL' })
       return
     }
 
-    // Name is still required, but no special formatting rule beyond "not empty"
     if (!form.name.trim()) {
       setStatus({ state: 'error', message: t('contact.formFixErrors') })
       return
     }
 
-    // Block send if any inline errors exist
     if (errors.email || errors.phone || errors.message) {
       setStatus({ state: 'error', message: t('contact.formFixErrors') })
       return
@@ -194,6 +193,12 @@ export default function Contact() {
                 className="hidden"
                 aria-hidden="true"
               />
+
+              {!endpoint && (
+                <div className="rounded-xl bg-rose-50 px-4 py-3 text-sm text-rose-900 ring-1 ring-rose-200">
+                  {t('contact.missingApiUrl') || 'Missing VITE_CONTACT_API_URL'}
+                </div>
+              )}
 
               <div>
                 <label className="block text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
@@ -309,7 +314,7 @@ export default function Contact() {
 
               <button
                 type="submit"
-                disabled={status.state === 'sending'}
+                disabled={status.state === 'sending' || !endpoint}
                 className="inline-flex w-full items-center justify-center rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-60"
               >
                 {t('contact.formSend')}
