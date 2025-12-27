@@ -87,7 +87,10 @@ export default function Contact() {
     setSubmitAttempted(true)
 
     if (!endpoint) {
-      setStatus({ state: 'error', message: t('contact.missingApiUrl') || 'Missing VITE_CONTACT_API_URL' })
+      setStatus({
+        state: 'error',
+        message: t('contact.missingApiUrl') || 'Missing VITE_CONTACT_API_URL',
+      })
       return
     }
 
