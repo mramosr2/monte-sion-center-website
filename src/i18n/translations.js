@@ -1,9 +1,9 @@
 export const translations = {
   en: {
     nav: {
-      brandTitle: 'Monte Sión Center',
-      brandSubtitle: 'Community & Missions',
-      logoAlt: 'Monte Sión Center logo',
+      brandTitle: 'Monte Sion Center',
+      brandSubtitle: 'Food Bank',
+      logoAlt: 'Monte Sion Center logo',
       mission: 'Mission',
       programs: 'Programs',
       donate: 'Donate',
@@ -16,10 +16,10 @@ export const translations = {
     },
 
     hero: {
-      bgAlt: 'Monte Sión Center food program and community gathering (placeholder)',
-      headline: 'Serving families with food, hope, and the love of Christ.',
+      bgAlt: 'Monte Sion Center food program and community gathering (placeholder)',
+      headline: 'Serving those in need with compassion, dignity, and grace!',
       body:
-        'A community center dedicated to children, families, and missions — sharing meals, prayer, and practical support with our neighbors and beyond.',
+        'We are a Center that helps with food insecurity by collecting, storing, and distributing food to underserved individuals and families, while fostering community partnerships and promoting long-term stability.',
       ctaDonate: 'Donate now',
       ctaMission: 'Learn more about our mission',
       cardWeeklyTitle: 'Weekly food distribution',
@@ -31,19 +31,19 @@ export const translations = {
     },
 
     home: {
-      whatTitle: 'What is Monte Sión Center?',
+      whatTitle: 'What is Monte Sion Center?',
       whatSubtitle: 'Welcome',
       whatP1:
-        'Monte Sión Center is a Christ-centered community hub in East Los Angeles. We share meals, pray together, and support children, families, and anyone who is in need.',
+        'We are a Christian community hub in East Los Angeles. We share food and support children, families, and anyone in need.',
       whatP2:
-        'Through food programs, prayer, and missions, we hope to be a place of hope and practical help for our neighbors and for communities abroad.',
+        'Through food programs and missions, we strive to be a place of hope and practical help for our neighbors and for communities abroad.',
       joinTitle: 'Join us this week',
-      joinFoodLabel: 'Food distribution:',
-      joinFoodBody: 'Bring your family and neighbors for hot meals and pantry items.',
-      joinPrayerLabel: 'Prayer & fellowship:',
-      joinPrayerBody: 'Time to pray, worship, and encourage one another.',
+      joinFoodLabel: 'Weekly Food Distribution to Non-Profit Agencies:',
+      joinFoodBody: ' We thrive to provide Agencies with enough resources to feed over 50 families per pallet of food.',
+      joinPrayerLabel: 'Weekly Food Distribution to the Public:',
+      joinPrayerBody: 'We are able to provide vegetables, fruits, non-perishable food, beverages, and other variations of food to families and their children.',
       joinMissionsLabel: 'Missions:',
-      joinMissionsBody: 'Support outreach work locally and in other regions where help is needed.',
+      joinMissionsBody: 'We strive to support our local communities through special events, while also extending our mission outreach programs internationally.',
       seePrograms: 'See our programs',
       contactVisit: 'Contact & visit',
 
@@ -53,7 +53,7 @@ export const translations = {
       verseBody:
         'Honour the Lord with thy substance, and with the firstfruits of all thine increase: So shall thy barns be filled with plenty, and thy presses shall burst out with new wine.',
       collageAlt:
-        'Monte Sión Center food program: pallets of food, volunteers, and deliveries.',
+        'Monte Sion Center food program: pallets of food, volunteers, and deliveries.',
 
       storyTitle: 'How you can be part of the story',
       storySubtitle: 'Get involved',
@@ -62,7 +62,7 @@ export const translations = {
         'Pray for the families we serve, the volunteers who show up each week, and the missions work that goes out from this place.',
       serveTitle: 'Serve',
       serveBody:
-        'Help prepare meals, distribute groceries, or assist with children, check-in, and other needs during our programs.',
+        'Help distribute groceries, or assist with children, check-in, and other needs during our programs.',
       giveTitle: 'Give',
       giveBody:
         'Your financial support helps provide food, supplies, and resources for children, families, and missions projects.',
@@ -71,7 +71,7 @@ export const translations = {
       
   socialKicker: 'Connect',
   socialTitle: 'Here are our socials',
-  socialBody: 'Follow us for updates, events, and stories from Monte Sión Center.',
+  socialBody: 'Follow us for updates, events, and stories from Monte Sion Center.',
 
   storyTitle: 'How you can be part of the story',
   storySubtitle: 'Get involved',
@@ -79,12 +79,12 @@ export const translations = {
 
    mission: {
   pageTitle: 'Our Mission',
-  pageSubtitle: 'Monte Sión Center',
+  pageSubtitle: 'Monte Sion Center',
   leadTitle: 'Hope for tomorrow',
   leadP1:
     'One of the most effective ways to help someone is to walk with them over time — offering food, prayer, and practical support so that children and families can experience a different future.',
   leadP2:
-    'Monte Sión Center serves as a bridge between generous partners and communities facing hunger, instability, and need, both here in Los Angeles and around the world.',
+    'Monte Sion Center serves as a bridge between generous partners and communities facing hunger, instability, and need, both here in Los Angeles and around the world.',
   imgTeamAlt: 'Mission team group photo placeholder',
   imgDentalAlt: 'Medical and dental outreach placeholder',
 
@@ -144,12 +144,12 @@ export const translations = {
       actionP1:
         'Each week, trucks full of produce, dry goods, and prepared meals are unloaded, sorted, and shared with families. Volunteers from different churches and organizations stand side by side to serve.',
       actionP2:
-        'On the live site, you can swap this placeholder collage with real photos from the Monte Sión Center food program, along with captions and testimonies from guests.',
+        'On the live site, you can swap this placeholder collage with real photos from the Monte Sion Center food program, along with captions and testimonies from guests.',
 
       serveTitle: 'Want to serve?',
       serveSubtitle: 'Volunteers & partners',
       serveP1:
-        'Volunteers are a key part of Monte Sión Center — from preparing and serving meals, to praying with guests, to organizing supplies and logistics.',
+        'Volunteers are a key part of Monte Sion Center — from preparing and serving meals, to praying with guests, to organizing supplies and logistics.',
       serveP2:
         "If you or your church would like to serve, you can reach out using the contact page and we\'ll help you find a good place to plug in.",
       rolesTitle: 'Example volunteer roles',
@@ -162,9 +162,9 @@ export const translations = {
 
    donate: {
   pageTitle: 'A small amount goes a long way',
-  pageSubtitle: 'Give to Monte Sión Center',
+  pageSubtitle: 'Give to Monte Sion Center',
   p1:
-    'Your generosity helps provide hot meals, pantry items, and essential supplies for children, families, and individuals who visit Monte Sión Center.',
+    'Your generosity helps provide hot meals, pantry items, and essential supplies for children, families, and individuals who visit Monte Sion Center.',
   p2:
     'It also supports prayer, discipleship, and missions work that extends beyond our city. Every gift — large or small — becomes part of what God is doing through this ministry.',
 
@@ -192,9 +192,9 @@ export const translations = {
   accessibilityNote:
     'Accessibility note: QR codes are optional—use the Open buttons or copy the handle/email.',
 
-  qrAltPayPal: 'PayPal QR code for Monte Sión Center donations.',
-  qrAltVenmo: 'Venmo QR code for Monte Sión Center donations.',
-  qrAltZelle: 'Zelle QR code for Monte Sión Center donations.',
+  qrAltPayPal: 'PayPal QR code for Monte Sion Center donations.',
+  qrAltVenmo: 'Venmo QR code for Monte Sion Center donations.',
+  qrAltZelle: 'Zelle QR code for Monte Sion Center donations.',
 
   paypalNote: 'Donate via PayPal (opens PayPal).',
   venmoNote: 'Donate via Venmo. Handle shown below.',
@@ -211,7 +211,7 @@ openOptions: "View all options",
 disclaimer: "Thank you for your support. Donations go toward food, supplies, and outreach.",
 
 galleryTitle: "Giving in action",
-gallerySubtitle: "Recent moments from Monte Sión Center",
+gallerySubtitle: "Recent moments from Monte Sion Center",
 
 receiptTitle: "Need a receipt?",
 receiptText:
@@ -265,12 +265,12 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
     },
 
     map: {
-      iframeTitle: 'Monte Sión Center location',
+      iframeTitle: 'Monte Sion Center location',
     },
     gallery: {
   subtitlePhotos: "Photos",
   subtitlePhotosStories: "Photos & Stories",
-  homeTitle: "Monte Sión in action",
+  homeTitle: "Monte Sion in action",
   missionTitle: "Mission moments",
   programsTitle: "Food program in action",
   donateTitle: "Your gifts at work",
@@ -280,10 +280,10 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
 
   es: {
     nav: {
-      brandTitle: 'Monte Sión Center',
-      brandSubtitle: 'Comunidad y Misiones',
-      logoAlt: 'Logotipo del Monte Sión Center',
-      mission: 'Misión',
+      brandTitle: 'Monte Sion Center',
+      brandSubtitle: 'Banco de Alimentos',
+      logoAlt: 'Logotipo del Monte Sion Center',
+      mission: 'Mision',
       programs: 'Programas',
       donate: 'Donar',
       contact: 'Contacto',
@@ -295,12 +295,12 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
     },
 
     hero: {
-      bgAlt: 'Programa de alimentos y reunión comunitaria del Monte Sión Center (marcador de posición)',
-      headline: 'Sirviendo a las familias con comida, esperanza y el amor de Cristo.',
+      bgAlt: 'Programa de alimentos y reunión comunitaria del Monte Sion Center (marcador de posición)',
+      headline: 'Sirviendo al necesitado con un corazón lleno de gracia y compasión!',
       body:
-        'Un centro comunitario dedicado a niños, familias y misiones — compartiendo alimentos, oración y apoyo práctico con nuestros vecinos y más allá.',
+        'Somos un Centro que ayuda con la inseguridad alimentaria mediante la recolección, el almacenamiento y la distribución de alimentos a individuos y familias desatendidas, al mismo tiempo que se fomentan alianzas comunitarias y se promueve la estabilidad a largo plazo.',
       ctaDonate: 'Donar ahora',
-      ctaMission: 'Conoce más sobre nuestra misión',
+      ctaMission: 'Conoce más sobre nuestra mision',
       cardWeeklyTitle: 'Distribución semanal de alimentos',
       cardWeeklyBody:
         'Comidas calientes y artículos de despensa para niños, familias y toda persona que llegue a la mesa.',
@@ -310,19 +310,19 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
     },
 
     home: {
-      whatTitle: '¿Qué es el Monte Sión Center?',
+      whatTitle: '¿Qué es el Monte Sion Center?',
       whatSubtitle: 'Bienvenidos',
       whatP1:
-        'El Monte Sión Center es un lugar de apoyo y compañerismo cristiano en el corazón del Este de Los Ángeles. Aquí se comparten alimentos, se ora juntos y se apoya a niños, familias y a toda persona en necesidad.',
+        'Somos un centro Cristiano comunitario centrado en el Este de Los Ángeles. Compartimos alimentos y apoyamos a niños, familias y a toda persona que se encuentre en necesidad.',
       whatP2:
-        'A través de programas de comida, oración y misiones, buscamos ser una luz de esperanza y ayuda práctica para nuestra comunidad y para quienes están más allá de nuestras fronteras.',
+        'A través de programas de alimentos y misiones, buscamos ser un lugar de esperanza y ayuda práctica para nuestros vecinos y para comunidades en el extranjero.',
       joinTitle: 'Acompáñanos esta semana',
-      joinFoodLabel: 'Distribución de alimentos:',
-      joinFoodBody: 'Trae a tu familia y vecinos para comidas calientes y artículos de despensa.',
-      joinPrayerLabel: 'Oración y convivencia:',
-      joinPrayerBody: 'Tiempo para orar, adorar y animarnos unos a otros.',
+      joinFoodLabel: 'Distribución semanal de alimentos a agencias sin fines de lucro:',
+      joinFoodBody: 'Nos esforzamos por proporcionar a las agencias suficientes recursos para alimentar a más de 50 familias por cada pallet de alimentos.',
+      joinPrayerLabel: 'Distribución semanal de alimentos al público:',
+      joinPrayerBody: 'Podemos proporcionar verduras, frutas, alimentos no perecederos, bebidas y otros tipos de alimentos a las familias y sus hijos.',
       joinMissionsLabel: 'Misiones:',
-      joinMissionsBody: 'Apoya el trabajo de alcance local y en otras regiones donde se necesita ayuda.',
+      joinMissionsBody: 'Nos esforzamos por apoyar a nuestras comunidades locales a través de eventos especiales, al mismo tiempo que extendemos nuestros programas de misión y alcance internacional',
       seePrograms: 'Ver programas',
       contactVisit: 'Contacto y visita',
 
@@ -332,7 +332,7 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
       verseBody:
         'Honra a Jehová con tus bienes, y con las primicias de todos tus frutos; y serán llenos tus graneros con abundancia, y tus lagares rebosarán de mosto.',
       collageAlt:
-        'Programa de alimentos del Monte Sión Center: tarimas de comida, voluntarios y entregas.',
+        'Programa de alimentos del Monte Sion Center: tarimas de comida, voluntarios y entregas.',
 
       storyTitle: 'Cómo puedes ser parte de la historia',
       storySubtitle: 'Participa',
@@ -341,7 +341,7 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
         'Ora por las familias a las que servimos, por los voluntarios que llegan cada semana y por la obra misionera que sale desde este lugar.',
       serveTitle: 'Sirve',
       serveBody:
-        'Ayuda a preparar comidas, distribuir víveres o apoyar con niños, registro y otras necesidades durante nuestros programas.',
+        'Ayude a distribuir alimentos, o colabore con el cuidado de los niños, el registro de asistencia y otras necesidades durante nuestros programas.',
       giveTitle: 'Da',
       giveBody:
         'Tu apoyo financiero ayuda a proveer comida, suministros y recursos para niños, familias y proyectos misioneros.',
@@ -349,37 +349,37 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
 
         socialKicker: 'Conéctate',
   socialTitle: 'Nuestras redes sociales',
-  socialBody: 'Síguenos para ver actualizaciones, eventos y historias del Monte Sión Center.',
+  socialBody: 'Síguenos para ver actualizaciones, eventos y historias del Monte Sion Center.',
 
   storyTitle: 'Cómo puedes ser parte de la historia',
   storySubtitle: 'Participa',
     },
 
    mission: {
-  pageTitle: 'Nuestra Misión',
-  pageSubtitle: 'Monte Sión Center',
+  pageTitle: 'Nuestra Mision',
+  pageSubtitle: 'Monte Sion Center',
   leadTitle: 'La esperanza del mañana',
   leadP1:
     'Una de las maneras más efectivas de ayudar a alguien es acompañarlo con el tiempo — ofreciendo comida, oración y apoyo práctico para que los niños y las familias puedan experimentar un futuro diferente.',
   leadP2:
-    'El Monte Sión Center sirve como puente entre socios generosos y comunidades que enfrentan hambre, inestabilidad y necesidad, aquí en Los Ángeles y alrededor del mundo.',
+    'El Monte Sion Center sirve como puente entre socios generosos y comunidades que enfrentan hambre, inestabilidad y necesidad, aquí en Los Ángeles y alrededor del mundo.',
   imgTeamAlt: 'Foto de equipo misionero (marcador de posición)',
   imgDentalAlt: 'Alcance médico y dental (marcador de posición)',
 
-  statementTitle: 'Declaración de misión',
+  statementTitle: 'Declaración de mision',
   statementSubtitle: 'Lo que creemos',
   statementP1:
     'La necesidad de ayudar a las personas es indispensable cuando se tiene una conciencia real del ser humano. Vemos a los que sufren y queremos salir corriendo para darles lo que tenemos.',
   statementP2:
     'También buscamos personas que tengan el mismo sentir y unirnos para ayudar en momentos de crisis. Cada día y cada año que pasa, la situación en el mundo se vuelve más difícil para la mayoría, pero sabemos que podemos hacer algo.',
   statementP3:
-    'Nuestra misión es ayudar a los necesitados: suministrar alimentos, ropa, artículos de higiene personal, medicinas y apoyo médico, sin tomar en cuenta afiliación política, creencia religiosa o raza.',
+    'Nuestra mision es ayudar a los necesitados: suministrar alimentos, ropa, artículos de higiene personal, medicinas y apoyo médico, sin tomar en cuenta afiliación política, creencia religiosa o raza.',
   statementP4:
-    'La ayuda que recibimos de las personas que donan al Centro Monte Sión se utiliza en diferentes lugares, especialmente en Latinoamérica, comprometidos a servir y a suplir necesidades básicas y emocionales basadas en principios cristianos.',
+    'La ayuda que recibimos de las personas que donan al Centro Monte Sion se utiliza en diferentes lugares, especialmente en Latinoamérica, comprometidos a servir y a suplir necesidades básicas y emocionales basadas en principios cristianos.',
 
   principlesTitle: 'Principios fundamentales',
   principlesSubtitle: 'Lo que nos guía',
-  p1Title: 'Compasión sin discriminación',
+  p1Title: 'Compasion sin discriminación',
   p1Body:
     'Proveemos alimentos, ropa, artículos de higiene, medicinas y apoyo médico sin tomar en cuenta afiliación política, creencia religiosa o raza.',
   p2Title: 'Integridad y mayordomía',
@@ -390,7 +390,7 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
     'Buscamos ayudar a las familias: alimentar a los niños y servir necesidades básicas y emocionales con un corazón afable.',
 
   principlesP1:
-    'Los principios fundamentales que tenemos en el Centro Monte Sión están muy bien definidos. A través de nuestras vidas hemos visto las necesidades fundamentales de las personas y queremos ser parte de la solución al problema que acecha a la humanidad, no parte del problema. Creemos que es mejor tener una buena conciencia que edificios impresionantes que no nos permitan ver por las ventanas la necesidad que se esconde en cada rincón de las familias en necesidad.',
+    'Los principios fundamentales que tenemos en el Centro Monte Sion están muy bien definidos. A través de nuestras vidas hemos visto las necesidades fundamentales de las personas y queremos ser parte de la solución al problema que acecha a la humanidad, no parte del problema. Creemos que es mejor tener una buena conciencia que edificios impresionantes que no nos permitan ver por las ventanas la necesidad que se esconde en cada rincón de las familias en necesidad.',
   principlesP2:
     'Estamos conscientes de que es mejor cuidar de las familias: tener con qué ayudarles, tener cómo dar de comer a los niños y que tengan útiles para ir a la escuela para poder rendir en los estudios.',
   principlesP3:
@@ -422,12 +422,12 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
       actionP1:
         'Cada semana, camiones con productos, víveres y comidas preparadas se descargan, se organizan y se comparten con familias. Voluntarios de diferentes iglesias y organizaciones sirven hombro a hombro.',
       actionP2:
-        'En el sitio real, puedes reemplazar este collage con fotos reales del programa de alimentos del Monte Sión Center, junto con leyendas y testimonios.',
+        'En el sitio real, puedes reemplazar este collage con fotos reales del programa de alimentos del Monte Sion Center, junto con leyendas y testimonios.',
 
       serveTitle: '¿Quieres servir?',
       serveSubtitle: 'Voluntarios y aliados',
       serveP1:
-        'Los voluntarios son una parte clave del Monte Sión Center — desde preparar y servir comidas, hasta orar con los visitantes y organizar suministros y logística.',
+        'Los voluntarios son una parte clave del Monte Sion Center — desde preparar y servir comidas, hasta orar con los visitantes y organizar suministros y logística.',
       serveP2:
         'Si tú o tu iglesia desean servir, pueden contactarnos usando la página de contacto y les ayudaremos a encontrar una buena forma de involucrarse.',
       rolesTitle: 'Ejemplos de roles de voluntariado',
@@ -440,9 +440,9 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
 
     donate: {
   pageTitle: 'Una pequeña cantidad llega muy lejos',
-  pageSubtitle: 'Apoya al Monte Sión Center',
+  pageSubtitle: 'Apoya al Monte Sion Center',
   p1:
-    'Tu generosidad ayuda a proveer comidas calientes, artículos de despensa y suministros esenciales para niños, familias y personas que visitan el Monte Sión Center.',
+    'Tu generosidad ayuda a proveer comidas calientes, artículos de despensa y suministros esenciales para niños, familias y personas que visitan el Monte Sion Center.',
   p2:
     'También apoya la oración, el discipulado y la obra misionera más allá de nuestra ciudad. Cada ofrenda — grande o pequeña — forma parte de lo que Dios está haciendo a través de este ministerio.',
 
@@ -470,9 +470,9 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
   accessibilityNote:
     'Nota de accesibilidad: Los códigos QR son opcionales—usa los botones de Abrir o copia el usuario/correo.',
 
-  qrAltPayPal: 'Código QR de PayPal para donaciones a Monte Sión Center.',
-  qrAltVenmo: 'Código QR de Venmo para donaciones a Monte Sión Center.',
-  qrAltZelle: 'Código QR de Zelle para donaciones a Monte Sión Center.',
+  qrAltPayPal: 'Código QR de PayPal para donaciones a Monte Sion Center.',
+  qrAltVenmo: 'Código QR de Venmo para donaciones a Monte Sion Center.',
+  qrAltZelle: 'Código QR de Zelle para donaciones a Monte Sion Center.',
 
   paypalNote: 'Donar por PayPal (abre PayPal).',
   venmoNote: 'Donar por Venmo. El usuario aparece abajo.',
@@ -489,7 +489,7 @@ openOptions: "Ver todas las opciones",
 disclaimer: "Gracias por tu apoyo. Las donaciones ayudan con comida, suministros y alcance.",
 
 galleryTitle: "Tu apoyo en acción",
-gallerySubtitle: "Momentos recientes del Monte Sión Center",
+gallerySubtitle: "Momentos recientes del Monte Sion Center",
 
 receiptTitle: "¿Necesitas recibo?",
 receiptText:
@@ -544,13 +544,13 @@ missingApiUrl: "El formulario de contacto no está configurado todavía. Falta l
     },
 
     map: {
-      iframeTitle: 'Ubicación del Monte Sión Center',
+      iframeTitle: 'Ubicación del Monte Sion Center',
     },
     gallery: {
       subtitlePhotos: "Fotos",
       subtitlePhotosStories: "Fotos e historias",
-      homeTitle: "Monte Sión en acción",
-     missionTitle: "Momentos de misión",
+      homeTitle: "Monte Sion en acción",
+     missionTitle: "Momentos de mision",
      programsTitle: "El programa en acción",
       donateTitle: "Tu apoyo en acción",
     },
