@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Save the current path so index.html can restore it
+      sessionStorage.setItem('redirectPath', location.pathname + location.search + location.hash);
+      // Go to the SPA entry point
+      location.replace('/');
+    </script>
+  </head>
+  <body></body>
+</html>
