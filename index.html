@@ -3,17 +3,29 @@
   <head>
     <meta charset="UTF-8" />
 
-    <title>Monte Sión Center</title>
+    <title>Monte Sion Center</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Favicon -->
-   <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="icon" type="image/png" href="/logo.png" />
 
     <!-- iOS home screen icon -->
     <link rel="apple-touch-icon" href="/logo.png" />
   </head>
   <body class="bg-slate-50">
     <div id="root"></div>
+
+    <!-- GitHub Pages + BrowserRouter refresh fix -->
+    <script>
+      (function () {
+        const redirectPath = sessionStorage.getItem('redirectPath');
+        if (redirectPath) {
+          sessionStorage.removeItem('redirectPath');
+          history.replaceState(null, '', redirectPath);
+        }
+      })();
+    </script>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
