@@ -22,8 +22,12 @@ export default function Programs() {
 
   return (
     <>
-      <Section title={t("programs.pageTitle")} subtitle={t("programs.pageSubtitle")}>
+      <Section
+        title={t("programs.pageTitle")}
+        subtitle={t("programs.pageSubtitle")}
+      >
         <div className="grid gap-6 md:grid-cols-3">
+          {/* Weekly Food Distributions */}
           <ProgramCard
             title={t("programs.card1Title")}
             subtitle={t("programs.card1Subtitle")}
@@ -32,30 +36,36 @@ export default function Programs() {
             <p>{t("programs.card1P2")}</p>
           </ProgramCard>
 
+          {/* Special Distribution Events & Seasonal Celebrations */}
           <ProgramCard title={t("programs.card2Title")}>
             <p>{t("programs.card2P1")}</p>
           </ProgramCard>
 
+          {/* Missions & Dental Outreach */}
           <ProgramCard title={t("programs.card3Title")}>
             <p>{t("programs.card3P1")}</p>
           </ProgramCard>
         </div>
       </Section>
 
-      <Section title={t("programs.actionTitle")} subtitle={t("programs.actionSubtitle")}>
+      {/* Food Program in Action */}
+      <Section
+        title={t("programs.actionTitle")}
+        subtitle={t("programs.actionSubtitle")}
+      >
         <div className="grid gap-8 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] md:items-start">
-          {/* Gallery (no internal header so it doesn't repeat the Section title) */}
           <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200">
             <Gallery images={galleries.programs} showHeader={false} />
           </div>
 
           <div className="space-y-3 text-sm text-slate-700">
+            {/* Remove second paragraph per client request */}
             <p>{t("programs.actionP1")}</p>
-            <p>{t("programs.actionP2")}</p>
           </div>
         </div>
       </Section>
 
+      {/* Want to serve? */}
       <Section title={t("programs.serveTitle")} subtitle={t("programs.serveSubtitle")}>
         <div className="grid gap-8 md:grid-cols-[2fr,3fr] text-sm text-slate-700">
           <div className="space-y-3">
@@ -73,6 +83,7 @@ export default function Programs() {
               <li>{t("programs.role3")}</li>
               <li>{t("programs.role4")}</li>
               <li>{t("programs.role5")}</li>
+              <li>{t("programs.role6")}</li>
             </ul>
           </div>
         </div>

@@ -82,29 +82,29 @@ export const translations = {
   pageSubtitle: 'Monte Sion Center',
   leadTitle: 'Hope for tomorrow',
   leadP1:
-    'One of the most effective ways to help someone is to walk with them over time — offering food, prayer, and practical support so that children and families can experience a different future.',
+    'One of the most meaningful ways to support someone is to walk alongside them, providing food, prayer, and practical assistance over time—so that children and families can envision and experience a brighter future.',
   leadP2:
-    'Monte Sion Center serves as a bridge between generous partners and communities facing hunger, instability, and need, both here in Los Angeles and around the world.',
+    'At Monte Sion Center, we serve as a bridge between generous partners and communities facing hunger, instability, and need, reaching families both here in Los Angeles and other countries.',
   imgTeamAlt: 'Mission team group photo placeholder',
   imgDentalAlt: 'Medical and dental outreach placeholder',
 
   statementTitle: 'Mission statement',
   statementSubtitle: 'What we believe',
   statementP1:
-    'The need to help people is essential in human beings when we become aware of it. We see them suffering and immediately want to rush over to them and provide them with what we have.',
+    'The call to help others is a fundamental part of our humanity. When we see people in need, our instinct is to reach out and offer what we can.',
   statementP2:
-    'We know there are many people who also want to lend a helping hand, and we would like to unite with them. With each day that passes, the situation in the world gets tougher for most, but with faith we know we can do something to help.',
+    'We recognize that many share this desire to serve, and we aim to unite those hearts in action. While the challenges of the world grow daily, our faith inspires us to make a difference, one life at a time.',
   statementP3:
-    'Our mission is to help the needy by supplying food, clothing, toiletries, medication, and medical supplies to others—without discrimination regarding political affiliation, religious belief, or race.',
+    'Our mission is to support those in need by providing food, clothing, toiletries, medication, and medical supplies, without discrimination based on political affiliation, religious belief, or race.',
   statementP4:
-    'The help we receive from people who donate to Monte Sion Center is shared throughout different locations, especially in Latin America, serving both basic and emotional needs based on Christian principles.',
+    'Through the generosity of donors, Monte Sion Center shares these resources across multiple locations, particularly in Latin America, addressing both the physical and emotional needs of communities, guided by Christian principles.',
 
-  principlesTitle: 'Core principles',
+  principlesTitle: 'Our Principles',
   principlesSubtitle: 'What guides us',
   p1Title: 'Compassion without discrimination',
   p1Body:
     'We provide food, clothing, hygiene items, medication, and medical support without regard to political affiliation, religious belief, or race.',
-  p2Title: 'Integrity & stewardship',
+  p2Title: 'Integrity & Stewardship',
   p2Body:
     'We manage what we are given responsibly, choosing a good conscience and practical service over impressive buildings.',
   p3Title: 'Care for families',
@@ -112,53 +112,62 @@ export const translations = {
     'We seek to help families thrive—feeding children, supporting their growth, and serving both basic and emotional needs with a gracious heart.',
 
   principlesP1:
-    'The fundamental principles we have at Monte Sion Center are very well defined. Throughout our lives we have seen the fundamental needs of people and we want to be part of the solution to the problem that threatens humanity, not part of the problem. We believe it is better to have a good conscience than impressive buildings, because it will allow us to see the need that lurks on every corner of our communities.',
+    'At Monte Sion Center, our guiding principles are clear and deeply rooted in compassion. Throughout our lives, we have witnessed the fundamental needs of people, and we strive to be part of the solution to humanity’s challenges.',
   principlesP2:
-    'We understand the dire need for families to be taken care of. We have to feed our children in order to provide them with the best health and life possible.',
+    'We understand the urgent need to care for families. Feeding children and providing for their well-being is essential to ensuring a healthy and hopeful future.',
   principlesP3:
-    'We want to provide a practical service to humanity and also live a life of our own that is full of purity. These two things are completely possible.',
+    'Our goal is to offer practical service to humanity while living lives of integrity and purity. We firmly believe that these two paths are not only compatible but essential.',
   principlesP4:
-    'In life we must manage with what we are given and we must do it in the most correct way. We must not shrug our shoulders against the adversities of life or ignore those in need. We must shelter the poor, help the orphans, the widows, and the outsiders; love our fellow neighbors and lead with a clean heart against the various temptations of the world.',
+    'In life, we must steward what we are given with wisdom and righteousness. We cannot turn away from life’s adversities or ignore those in need. We are called to shelter the poor, support orphans and widows, welcome outsiders, love our neighbors, and lead with clean hearts.',
 },
 
 
-    programs: {
-      pageTitle: 'Programs & outreach',
-      pageSubtitle: 'What we do',
-      card1Title: 'Food distribution',
-      card1Subtitle: 'Children & families',
-      card1P1:
-        'Weekly gatherings where hot meals and pantry items are shared with children, families, and anyone who comes to the table.',
-      card1P2:
-        'Use this space to describe the specific schedule and details from your current site (days, times, and how people can participate).',
-      card2Title: 'Prayer & discipleship',
-      card2P1:
-        'Times of worship, teaching, and prayer for individuals and families, creating space to grow in faith and community.',
-      card3Title: 'Missions & outreach',
-      card3P1:
-        'Support for missions trips and projects in other regions, partnering with local leaders to meet both spiritual and practical needs.',
+   programs: {
+  pageTitle: 'Programs',
+  pageSubtitle: 'How we serve our community each week and throughout the year.',
 
-      actionTitle: 'Food program in action',
-      actionSubtitle: 'Photos & stories',
-      actionImgAlt: 'Collage of food pallets, volunteers, and deliveries placeholder',
-      actionP1:
-        'Each week, trucks full of produce, dry goods, and prepared meals are unloaded, sorted, and shared with families. Volunteers from different churches and organizations stand side by side to serve.',
-      actionP2:
-        'On the live site, you can swap this placeholder collage with real photos from the Monte Sion Center food program, along with captions and testimonies from guests.',
+  // Card 1
+  card1Title: 'Weekly Food Distributions',
+  card1Subtitle: 'Non-Profit Agencies • Families & Children',
+  card1P1:
+    'Each week, we renew our commitment to serving our community. From Tuesday through Thursday, we welcome nonprofit organizations to pick up food and continue supporting families most in need. These distribution days are more than a pickup, they are a time to unite our efforts, share resources, and extend hope throughout Southern California.',
+  card1P2:
+    'Every Friday, we welcome the public. It is an opportunity to serve and support our community. We joyfully open our doors to provide food to families in need. Thank you for allowing us to be part of your week! Please spread the word with your family, friends, and neighbors. Together, we can reach more households and make a meaningful difference.',
 
-      serveTitle: 'Want to serve?',
-      serveSubtitle: 'Volunteers & partners',
-      serveP1:
-        'Volunteers are a key part of Monte Sion Center — from preparing and serving meals, to praying with guests, to organizing supplies and logistics.',
-      serveP2:
-        "If you or your church would like to serve, you can reach out using the contact page and we\'ll help you find a good place to plug in.",
-      rolesTitle: 'Example volunteer roles',
-      role1: 'Meal prep, serving, and cleanup',
-      role2: 'Grocery / pantry organization',
-      role3: 'Registration and welcome team',
-      role4: 'Prayer and follow-up care',
-      role5: 'Event setup and tear-down',
-    },
+  // Card 2 (replaces Prayer & discipleship)
+  card2Title: 'Special Distribution Events & Seasonal Celebrations',
+  card2P1:
+    'Throughout the year, our food bank hosts special distribution events, community festivals, and holiday celebrations to serve families in a meaningful way. During these events, we provide additional food items, essential resources, and Christmas gifts for children, creating moments of joy and hope. These gatherings allow us to come together as a community, celebrate unity, and ensure that no family feels forgotten, especially during the holidays.',
+
+  // Card 3
+  card3Title: 'Missions & Dental Outreach',
+  card3P1:
+    'Through our mission and dental outreach programs, we serve vulnerable communities by providing essential dental care, health education, and humanitarian support. Through these efforts, we share hope, healing, and the love of Christ with children and families in need.',
+
+  // Food Program in Action (your Programs.jsx now uses only actionP1)
+  actionTitle: 'Food Program in Action',
+  actionSubtitle: 'Photos & stories',
+  actionP1:
+    'Our Food Programs in Action demonstrate our ongoing commitment to serving non-profit agencies, individuals, families and children facing food insecurity. Through weekly distributions, partnerships with nonprofit organizations, and special community events, we provide nutritious food to those in need while promoting dignity and respect. This program goes beyond food assistance, it strengthens community connections, supports families during challenging times, and offers hope through compassionate service. Together with our partners and volunteers, we are making a lasting impact, one household at a time.',
+
+  // Want to serve?
+  serveTitle: 'Want to serve?',
+  serveSubtitle: 'Join us in serving our community',
+  serveP1:
+    'Join Us in Serving Our Community! Our food bank thrives because of volunteers and donors like you. By lending a hand, you help provide nutritious food, hope, and support to families in need.',
+  serveP2:
+    "Whether it’s assisting with weekly distributions, organizing special events, or helping behind the scenes, every act of service makes a difference. Come be part of a community dedicated to giving, sharing, and spreading hope.",
+
+  // Donors list (6 items)
+  rolesTitle: 'Donors',
+  role1: 'Individuals & Families: People contributing financially or donating food and essential items.',
+  role2: 'Local Businesses: Grocery stores, restaurants, and shops providing food, supplies, or sponsorships.',
+  role3: 'Corporations: Larger companies supporting through financial gifts, matching programs, or in-kind donations.',
+  role4: 'Foundations & Grants: Nonprofits and charitable foundations providing funding for programs and special events.',
+  role5: 'Faith-Based Organizations: Churches or religious groups donating food, funds, or volunteer hours.',
+  role6: 'Community Organizations: Clubs, service groups, or civic organizations contributing resources or manpower.',
+},
+
 
    donate: {
   pageTitle: 'A small amount goes a long way',
@@ -360,29 +369,28 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
   pageSubtitle: 'Monte Sion Center',
   leadTitle: 'La esperanza del mañana',
   leadP1:
-    'Una de las maneras más efectivas de ayudar a alguien es acompañarlo con el tiempo — ofreciendo comida, oración y apoyo práctico para que los niños y las familias puedan experimentar un futuro diferente.',
+    'Una de las formas más significativas de ayudar a alguien es acompañarlo a lo largo del tiempo, brindando alimentos, oración y apoyo práctico, para que niños y familias puedan imaginar y experimentar un futuro más brillante.',
   leadP2:
-    'El Monte Sion Center sirve como puente entre socios generosos y comunidades que enfrentan hambre, inestabilidad y necesidad, aquí en Los Ángeles y alrededor del mundo.',
+    'En Monte Sion Center, servimos como un puente entre socios generosos y comunidades que enfrentan hambre, inestabilidad y necesidades, llegando a familias tanto aquí en Los Ángeles como en otros países.',
   imgTeamAlt: 'Foto de equipo misionero (marcador de posición)',
   imgDentalAlt: 'Alcance médico y dental (marcador de posición)',
 
   statementTitle: 'Declaración de mision',
   statementSubtitle: 'Lo que creemos',
   statementP1:
-    'La necesidad de ayudar a las personas es indispensable cuando se tiene una conciencia real del ser humano. Vemos a los que sufren y queremos salir corriendo para darles lo que tenemos.',
+    'El llamado a ayudar a los demás es una parte fundamental de nuestra humanidad. Al ver a personas necesitadas, nuestro instinto es acercarnos y ofrecer lo que podamos.',
   statementP2:
-    'También buscamos personas que tengan el mismo sentir y unirnos para ayudar en momentos de crisis. Cada día y cada año que pasa, la situación en el mundo se vuelve más difícil para la mayoría, pero sabemos que podemos hacer algo.',
+    'Reconocemos que muchos comparten este deseo de servir, y nuestro objetivo es unir esos corazones en acción. Aunque los desafíos del mundo aumentan cada día, nuestra fe nos inspira a marcar la diferencia una vida a la vez.',
   statementP3:
-    'Nuestra mision es ayudar a los necesitados: suministrar alimentos, ropa, artículos de higiene personal, medicinas y apoyo médico, sin tomar en cuenta afiliación política, creencia religiosa o raza.',
+    'Nuestra misión es apoyar a quienes lo necesitan, proporcionando alimentos, ropa, artículos de higiene, medicamentos y suministros médicos, sin discriminación por afiliación política, creencias religiosas o raza.',
   statementP4:
-    'La ayuda que recibimos de las personas que donan al Centro Monte Sion se utiliza en diferentes lugares, especialmente en Latinoamérica, comprometidos a servir y a suplir necesidades básicas y emocionales basadas en principios cristianos.',
-
-  principlesTitle: 'Principios fundamentales',
+    'Gracias a la generosidad de nuestros donantes, Monte Sion Center distribuye estos recursos en diferentes lugares, especialmente en América Latina, atendiendo tanto las necesidades físicas como emocionales de las comunidades, guiados por principios cristianos.',
+  principlesTitle: 'Nuestros Principios',
   principlesSubtitle: 'Lo que nos guía',
   p1Title: 'Compasion sin discriminación',
   p1Body:
     'Proveemos alimentos, ropa, artículos de higiene, medicinas y apoyo médico sin tomar en cuenta afiliación política, creencia religiosa o raza.',
-  p2Title: 'Integridad y mayordomía',
+  p2Title: 'Integridad y Mayordomía',
   p2Body:
     'Administramos lo que se nos da con responsabilidad, eligiendo una buena conciencia y un servicio práctico por encima de edificios impresionantes.',
   p3Title: 'Cuidado de las familias',
@@ -390,53 +398,62 @@ missingApiUrl: "Contact form is not configured yet. Missing contact API URL.",
     'Buscamos ayudar a las familias: alimentar a los niños y servir necesidades básicas y emocionales con un corazón afable.',
 
   principlesP1:
-    'Los principios fundamentales que tenemos en el Centro Monte Sion están muy bien definidos. A través de nuestras vidas hemos visto las necesidades fundamentales de las personas y queremos ser parte de la solución al problema que acecha a la humanidad, no parte del problema. Creemos que es mejor tener una buena conciencia que edificios impresionantes que no nos permitan ver por las ventanas la necesidad que se esconde en cada rincón de las familias en necesidad.',
+    'En Monte Sion Center, nuestros principios rectores son claros y profundamente arraigados en la compasión. A lo largo de nuestra vida, hemos sido testigos de las necesidades fundamentales de las personas, y nos esforzamos por ser parte de la solución a los desafíos que enfrenta la humanidad.',
   principlesP2:
-    'Estamos conscientes de que es mejor cuidar de las familias: tener con qué ayudarles, tener cómo dar de comer a los niños y que tengan útiles para ir a la escuela para poder rendir en los estudios.',
+    'Entendemos la urgente necesidad de cuidar a las familias. Alimentar a los niños y velar por su bienestar es esencial para garantizar un futuro saludable y esperanzador.',
   principlesP3:
-    'Queremos tener un servicio práctico a la humanidad y también vivir una vida personal con pureza, y es perfectamente posible.',
+    'Nuestro objetivo es ofrecer un servicio práctico a la humanidad mientras vivimos vidas de integridad y pureza. Creemos firmemente que estos dos caminos no solo son compatibles, sino esenciales.',
   principlesP4:
-    'En la vida solamente administramos lo que se nos da y debemos hacerlo de la manera más correcta. No podemos encogernos de hombros ante las adversidades de la vida, ni ver al necesitado y hacernos a un lado; debemos albergar a los pobres, ayudar a los huérfanos, a las viudas y a los forasteros, amando a nuestros semejantes y conduciéndonos con más limpieza frente a las diversas tentaciones del mundo.',
+    'En la vida, debemos administrar lo que se nos ha dado con sabiduría y rectitud. No podemos dar la espalda a las adversidades de la vida ni ignorar a quienes están en necesidad. Estamos llamados a proteger a los pobres, apoyar a los huérfanos y viudas, acoger a los forasteros, amar a nuestros vecinos y guiar con corazones puros.',
 },
 
 
     programs: {
-      pageTitle: 'Programas y alcance',
-      pageSubtitle: 'Lo que hacemos',
-      card1Title: 'Distribución de alimentos',
-      card1Subtitle: 'Niños y familias',
-      card1P1:
-        'Reuniones semanales donde se comparten comidas calientes y artículos de despensa con niños, familias y toda persona que llegue a la mesa.',
-      card1P2:
-        'Usa este espacio para describir el horario y los detalles del sitio actual (días, horas y cómo participar).',
-      card2Title: 'Oración y discipulado',
-      card2P1:
-        'Tiempos de adoración, enseñanza y oración para individuos y familias, creando un espacio para crecer en fe y comunidad.',
-      card3Title: 'Misiones y alcance',
-      card3P1:
-        'Apoyo a viajes y proyectos misioneros en otras regiones, colaborando con líderes locales para atender necesidades espirituales y prácticas.',
+  pageTitle: 'Programas',
+  pageSubtitle: 'Cómo servimos a nuestra comunidad cada semana y durante todo el año.',
 
-      actionTitle: 'El programa de alimentos en acción',
-      actionSubtitle: 'Fotos e historias',
-      actionImgAlt: 'Collage de tarimas de comida, voluntarios y entregas (marcador de posición)',
-      actionP1:
-        'Cada semana, camiones con productos, víveres y comidas preparadas se descargan, se organizan y se comparten con familias. Voluntarios de diferentes iglesias y organizaciones sirven hombro a hombro.',
-      actionP2:
-        'En el sitio real, puedes reemplazar este collage con fotos reales del programa de alimentos del Monte Sion Center, junto con leyendas y testimonios.',
+  // Card 1
+  card1Title: 'Distribuciones Semanales de Alimentos',
+  card1Subtitle: 'Agencias sin Fines de Lucro • Familias y Niños',
+  card1P1:
+    'Cada semana renovamos nuestro compromiso de servir a nuestra comunidad. De martes a jueves, damos la bienvenida a organizaciones sin fines de lucro para que recojan alimentos y continúen apoyando a las familias que más lo necesitan. Estos días de distribución son más que una entrega: son un tiempo para unir esfuerzos, compartir recursos y llevar esperanza a todo el Sur de California.',
+  card1P2:
+    'Cada viernes, damos la bienvenida al público. Es una oportunidad para servir y apoyar a nuestra comunidad. Abrimos nuestras puertas con alegría para brindar alimentos a las familias necesitadas. ¡Gracias por permitirnos ser parte de su semana! Por favor, comparta este mensaje con su familia, amigos y vecinos. Juntos podemos llegar a más hogares y hacer una diferencia significativa.',
 
-      serveTitle: '¿Quieres servir?',
-      serveSubtitle: 'Voluntarios y aliados',
-      serveP1:
-        'Los voluntarios son una parte clave del Monte Sion Center — desde preparar y servir comidas, hasta orar con los visitantes y organizar suministros y logística.',
-      serveP2:
-        'Si tú o tu iglesia desean servir, pueden contactarnos usando la página de contacto y les ayudaremos a encontrar una buena forma de involucrarse.',
-      rolesTitle: 'Ejemplos de roles de voluntariado',
-      role1: 'Preparación, servicio y limpieza',
-      role2: 'Organización de despensa',
-      role3: 'Registro y equipo de bienvenida',
-      role4: 'Oración y seguimiento',
-      role5: 'Montaje y desmontaje de eventos',
-    },
+  // Card 2
+  card2Title: 'Eventos Especiales de Distribución y Celebraciones Comunitarias',
+  card2P1:
+    'A lo largo del año, nuestro banco de alimentos organiza eventos especiales de distribución, festivales comunitarios y celebraciones durante las festividades para servir a las familias de una manera significativa. Durante estos eventos, ofrecemos alimentos adicionales, recursos esenciales y regalos navideños para los niños, creando momentos de alegría y esperanza. Estas actividades nos permiten unirnos como comunidad, celebrar la solidaridad y asegurarnos de que ninguna familia se sienta olvidada, especialmente durante la temporada navideña.',
+
+  // Card 3
+  card3Title: 'Misiones y Jornadas Dentales',
+  card3P1:
+    'A través de nuestros programas de misiones y jornadas dentales, servimos a comunidades vulnerables brindando atención dental esencial, educación en salud y apoyo humanitario. Mediante estos esfuerzos, compartimos esperanza, sanidad y el amor de Cristo con niños y familias necesitadas.',
+
+  // Food Program in Action (your Programs.jsx now uses only actionP1)
+  actionTitle: 'Programa de Alimentos en Acción',
+  actionSubtitle: 'Fotos e historias',
+  actionP1:
+    'Nuestros Programas de Alimentos en Acción demuestran nuestro compromiso continuo de servir a agencias sin fines de lucro, así como a individuos, familias y niños que enfrentan inseguridad alimentaria. A través de distribuciones semanales, alianzas con organizaciones sin fines de lucro y eventos comunitarios especiales, proporcionamos alimentos nutritivos a quienes los necesitan, promoviendo al mismo tiempo la dignidad y el respeto. Este programa va más allá de la asistencia alimentaria: fortalece los lazos comunitarios, apoya a las familias en tiempos difíciles y brinda esperanza a través de un servicio lleno de compasión. Junto con nuestros socios y voluntarios, estamos logrando un impacto duradero, hogar por hogar.',
+
+  // Want to serve?
+  serveTitle: '¿Quieres servir?',
+  serveSubtitle: '¡Únete a servir en nuestra comunidad!',
+  serveP1:
+    '¡Únete a Servir en Nuestra Comunidad! Nuestro banco de alimentos prospera gracias a voluntarios y donadores como tú. Al brindar tu ayuda, contribuyes a llevar alimentos nutritivos, esperanza y apoyo a las familias que lo necesitan.',
+  serveP2:
+    'Ya sea colaborando en las distribuciones semanales, organizando eventos especiales o apoyando en tareas detrás de escena, cada acto de servicio marca la diferencia. Ven y forma parte de una comunidad comprometida con dar, compartir y llevar esperanza.',
+
+  // Donors list (6 items)
+  rolesTitle: 'Donadores',
+  role1: 'Individuos y Familias: Personas que contribuyen económicamente o donan alimentos y artículos esenciales.',
+  role2: 'Negocios Locales: Supermercados, restaurantes y comercios que proporcionan alimentos, suministros o patrocinios.',
+  role3: 'Corporaciones: Empresas grandes que apoyan mediante donaciones financieras, programas de igualación o contribuciones.',
+  role4: 'Fundaciones y Subvenciones: Organizaciones sin fines de lucro y fundaciones benéficas que financian programas y eventos especiales.',
+  role5: 'Organizaciones Religiosas: Iglesias o grupos religiosos que donan alimentos, fondos o tiempo de voluntariado.',
+  role6: 'Organizaciones Comunitarias: Clubes, grupos de servicio u organizaciones cívicas que aportan recursos o mano de obra.',
+},
+
 
     donate: {
   pageTitle: 'Una pequeña cantidad llega muy lejos',
