@@ -1,5 +1,6 @@
 import Section from "../components/Section.jsx";
 import Gallery from "../components/Gallery.jsx";
+import PhotoCarousel from "../components/PhotoCarousel.jsx";
 import { galleries } from "../galleries.js";
 import { useLanguage } from "../i18n/LanguageProvider.jsx";
 
@@ -22,12 +23,14 @@ export default function Programs() {
 
   return (
     <>
+      {/* Three program cards */}
       <Section
         title={t("programs.pageTitle")}
         subtitle={t("programs.pageSubtitle")}
       >
         <div className="grid gap-6 md:grid-cols-3">
-          {/* Weekly Food Distributions */}
+
+          {/* Card 1 — Weekly Food Distributions */}
           <ProgramCard
             title={t("programs.card1Title")}
             subtitle={t("programs.card1Subtitle")}
@@ -36,17 +39,36 @@ export default function Programs() {
             <p>{t("programs.card1P2")}</p>
           </ProgramCard>
 
-          {/* Special Distribution Events & Seasonal Celebrations */}
+          {/* Card 2 — Special Distribution Events */}
           <ProgramCard title={t("programs.card2Title")}>
             <p>{t("programs.card2P1")}</p>
           </ProgramCard>
 
-          {/* Missions & Dental Outreach */}
+          {/* Card 3 — Missions & Dental Outreach + YouTube video */}
           <ProgramCard title={t("programs.card3Title")}>
             <p>{t("programs.card3P1")}</p>
+
+            {/* 16:9 YouTube embed */}
+            <div className="mt-3 overflow-hidden rounded-xl" style={{ aspectRatio: '16/9' }}>
+              <iframe
+                src="https://www.youtube.com/embed/s2RDgHwE3_8"
+                title="Missions and Dental Outreach — Monte Sion Center"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                loading="lazy"
+                className="h-full w-full"
+              />
+            </div>
           </ProgramCard>
+
         </div>
       </Section>
+
+      {/* Our Work in Action carousel */}
+      <PhotoCarousel
+        title={t("carousel.title")}
+        subtitle={t("carousel.subtitle")}
+      />
 
       {/* Food Program in Action */}
       <Section
@@ -59,7 +81,6 @@ export default function Programs() {
           </div>
 
           <div className="space-y-3 text-sm text-slate-700">
-            {/* Remove second paragraph per client request */}
             <p>{t("programs.actionP1")}</p>
           </div>
         </div>
